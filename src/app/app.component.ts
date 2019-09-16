@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TitleAndDesc } from './shared/models/title-and-desc';
 
 @Component({
   selector: 'bl-root',
@@ -6,5 +7,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ngBlueLine';
+  about: TitleAndDesc = {
+    title: "about title !!!!!",
+    description: "about description"
+  };
+  whyBlueLine: TitleAndDesc = {
+    title: "why BlueLine title !!!!!",
+    description: "why BlueLine description"
+  };
+
+  getDesc() {
+    return "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium laborum dolor doloribus neque sunt labore, vitae molestias aspernatur at deleniti corporis iure reprehenderit earum a fugiat atque, ut ratione deserunt?"
+
+  }
 }

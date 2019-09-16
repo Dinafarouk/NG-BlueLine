@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { TitleAndDesc } from '../shared/models/title-and-desc';
 
 @Component({
   selector: 'bl-title-and-desc-widget',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./title-and-desc-widget.component.scss']
 })
 export class TitleAndDescWidgetComponent implements OnInit {
+
+  @Input() data: TitleAndDesc
 
   constructor() { }
 
