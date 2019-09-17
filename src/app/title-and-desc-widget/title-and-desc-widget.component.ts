@@ -8,7 +8,7 @@ import { TitleAndDesc } from '../shared/models/title-and-desc';
 })
 export class TitleAndDescWidgetComponent implements OnInit {
 
-  @Input() data: TitleAndDesc
+  @Input() mydata: TitleAndDesc
 
   constructor() { }
 

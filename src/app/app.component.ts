@@ -8,12 +8,12 @@ import { TitleAndDesc } from './shared/models/title-and-desc';
 })
 export class AppComponent {
   about: TitleAndDesc = {
-    title: "about title !!!!!",
-    description: "about description"
+    title: "ABOUT BLUELINE",
+    description: "BLUELINE is a quality-oriented agency that provides a variety of professional services through creative & simple solutions. BLUELINE Agency contributes a wide range of marketing and media-based services."
   };
   whyBlueLine: TitleAndDesc = {
-    title: "why BlueLine title !!!!!",
-    description: "why BlueLine description"
+    title: "WHY CHOOSE BLUELINE",
+    description: "BLUELINE plans on giving you a fulfilling professional experience using unique approaches & convenient out-the-box results by innovative staﬀ driven to satisfy all the client’s needs."
   };
 
   getDesc() {

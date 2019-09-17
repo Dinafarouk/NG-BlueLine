@@ -8,6 +8,7 @@ import { TitleAndDescWidgetComponent } from './title-and-desc-widget/title-and-d
 import { ServicesListComponent } from './services-list/services-list.component';
 import { OurClientsComponent } from './our-clients/our-clients.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { ServiceListItemComponent } from './service-list-item/service-list-item.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     TitleAndDescWidgetComponent,
     ServicesListComponent,
     OurClientsComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    ServiceListItemComponent,
   ],
   imports: [
     BrowserModule,
