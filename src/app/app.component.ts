@@ -8,11 +8,12 @@ import { TitleAndDesc } from './shared/models/title-and-desc';
 })
 export class AppComponent {
   about: TitleAndDesc = {
-    title: "about title !!!!!",
-    description: "about description"
+    title: "about title",
+    description: "about description",
+    imgUrl:"uhyiuiuy",
   };
   whyBlueLine: TitleAndDesc = {
-    title: "why BlueLine title !!!!!",
+    title: "why BlueLine title",
     description: "why BlueLine description"
   };
 

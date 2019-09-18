@@ -10,6 +10,9 @@ export class TitleAndDescWidgetComponent implements OnInit {
 
   @Input() data: TitleAndDesc
 
+  
+
+
   constructor() { }
 
   ngOnInit() {
