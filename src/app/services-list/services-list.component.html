@@ -1,2 +1,9 @@
-<bl-title-and-desc-widget [mydata]="service_title"></bl-title-and-desc-widget>
-<bl-service-list-item></bl-service-list-item>
+<ul>
+    <li *ngFor="let element of Services; let i = index">
+      {{i}}. {{element.Icon}}, 
+      {{element.Title}},
+     <p> {{element.Description}}</p> 
+    </li>
+  </ul>
+
+  <hr>
